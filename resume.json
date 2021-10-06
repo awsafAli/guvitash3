@@ -1,0 +1,64 @@
+
+{
+  "basics": {
+    "name": "Mohammed Awsaf Ali",
+    "email": "mawsafali@gmail.com",
+    "phone": "733 850 8655",
+    "degree": "Diploma In Computer Science",
+    "summary": "To grab the opportunity and set myself a goal where I can be innovative and attain a
+challenging position by exercising my interpersonal and professional skills to the fullest for the
+growth of the organization and mine as well.",
+    "location": {
+      "address": "4-76, SHAHEEN COTTAGE, NEAR AMBIKA FINANCE JOKATTE, MANGALORE, KARNATAKA",
+      "postalCode": "575011",
+      "city": "Mangalore",
+      "countryCode": "India",
+      "region": "Dakshina Kannada"
+    }
+  },
+  "work": [
+    {
+      "company": "Komquest Solution ",
+      "position": "Junior Web Developer",
+      "website": "http://komquest.co.in/",
+      "startDate": "21-12-2018",
+      "endDate": "1-08-2021",
+      "summary": "I work as junor web developer in the company",
+      
+    }
+  ],
+  
+  "education": [
+    {
+      "institution": "Karavali Institute Of Technology",
+      "area": "Diploma",
+      "startDate": "2012",
+      "endDate": "2015",
+      "gpa": "",
+      "courses": [
+        "Computer Science"
+      ]
+    }
+  ],
+  
+  "skills": [
+    {
+      "name": "HTML,CSS,PHP",
+      "level": "Beginner",
+      
+    }
+  ],
+  "languages": [
+    {
+      "language": "English,Kannada,Hindi"
+      
+    }
+  ],
+  "interests": [
+    {
+      "name": "Chess,Cricket",
+     
+    }
+  ]
+}
+

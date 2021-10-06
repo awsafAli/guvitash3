@@ -1,0 +1,63 @@
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+<script>
+var books = [
+   {
+       title: "Lord of the Rings",
+       year: 1994,
+       pages: 3000
+   },
+   {
+       title: "1984",
+       year: 1984,
+       pages: 2000
+   },
+   {
+       title: "Art of war",
+       year: 2000,
+       pages: 5000
+   }
+];
+document.write("<br> <h4>For module</h4>");
+for (i=0; i<books.length; i++){
+   document.write("</br>"+"Title:"+
+       books[i].title + " "+"Year:"+ books[i].year+" "+ "Pages:"+books[i].pages+"<br/>"
+   );
+}
+
+document.write("<br> <h4>For in module</h4>");
+
+for (var i in books){
+   document.write("</br>"+"Title:"+
+       books[i].title + " "+"Year:"+ books[i].year+" "+ "Pages:"+books[i].pages+"<br/>"
+   );
+  
+  
+}
+document.write("<br> <h4>For of module</h4>");
+
+for (const value of books) {
+  //console.log(value.title);
+  document.write("</br>"+"Title:"+
+      value.title + " "+"Year:"+ value.year+" "+ "Pages:"+value.pages+"<br/>"
+   );
+}
+
+document.write("<br> <h4>For Each module</h4>");
+
+books.forEach(function(value){
+ document.write("</br>"+"Title:"+
+      value.title + " "+"Year:"+ value.year+" "+ "Pages:"+value.pages+"<br/>"
+   );
+})
+</script>
+
+
+</body>
+</html>
